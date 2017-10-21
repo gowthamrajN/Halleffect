@@ -11,11 +11,7 @@ void check()
 }
 void loop() {
    delay(5000);
-   /*if(FlowFrequency==1)
-   {
-     FlowFrequency
-   }*/
-  int a =FlowFrequency;
+ int a =FlowFrequency;
   Serial.println(a);
   //delay(1000);
   FlowFrequency=0;
