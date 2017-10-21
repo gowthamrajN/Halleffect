@@ -10,9 +10,8 @@ void check()
   FlowFrequency++; 
 }
 void loop() {
-   delay(5000);
- int a =FlowFrequency;
+  delay(5000);
+  int a =FlowFrequency;
   Serial.println(a);
-  //delay(1000);
   FlowFrequency=0;
 }
